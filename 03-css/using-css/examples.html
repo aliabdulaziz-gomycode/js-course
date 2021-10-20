@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .decorated-text {
+            text-decoration: underline red wavy 2px;
+        }
+
+        div p:first-child {
+            font-weight: bold;
+        }
+
+        div p:last-child {
+            color: red;
+        }
+
+        .box-model-example {
+            border: black solid 3px;
+            margin: 15px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="decorated-text">This is a decorated text</p>
+
+    <div>
+        <p>This is a bold text</p>
+        <p>This is a normal text</p>
+        <p>This is a normal text</p>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="box-model-example">Hello World!</div>
+</body>
+
+</html>
